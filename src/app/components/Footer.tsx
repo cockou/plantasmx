@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "/public/logoname.svg"
 
 interface FooterItemProps {
+    id: number;
     text: string;
     link: string;
 }

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Herosection from "./components/Herosection";
 import Footer from "./components/Footer";
-import BlogSection from "./components/Blogsection";
 import CtaSection from "./components/cta";
 
 export default function Home() {
@@ -9,9 +8,7 @@ export default function Home() {
     
     <div>
       <Herosection />
-      <BlogSection /> 
       <CtaSection />
-
       <Footer />
     </div>
   );
