@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Notificationbar from './Notificationbar'
+import { BiSolidZap } from "react-icons/bi";
+
 
 const Navbar = () => {
 const [navIsOpened, setNavIsOpened] = useState(false)
@@ -26,7 +28,7 @@ return (
             <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
                 <div className="flex items-center min-w-max">
                     <Link href="/" className="relative flex items-center gap-2.5">
-                        <Image src="/assets/logoname.svg" alt="Logo" width={50} height={50} />
+                        <img src="https://i.ibb.co/DR9fCKH/logo.png" alt="Logo" width={25} height={25} />
                         <span className="inline-flex text-lg font-bold text-green-950 dark:text-white">
                             PLANTAS DE LUZ MEXICO
                         </span>
@@ -48,12 +50,10 @@ return (
                         </li>
                     </ul>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4  lg:min-w-max mt-10 lg:mt-0">
-                        <a href="#" className="relative flex justify-center px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-red-500 dark:before:bg-gray-900 text-white dark:text-white hover:before:scale-105">
-                            <span>
-                                <Image src="/assets/whatsapp.svg" alt="Whatsapp" width={20} height={20} />
-                            </span>
-                            <span className="relative">
-                                Inventario
+                        <a href="#" className="relative flex justify-center px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-red-500 dark:before:bg-red-600 text-white dark:text-white hover:before:scale-105">
+                            <span className="flex items-center justify-center gap-2 relative">
+                                <BiSolidZap />
+                                <b>Inventario</b>
                             </span>
                         </a>
                     </div>

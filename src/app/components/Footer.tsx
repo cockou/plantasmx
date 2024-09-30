@@ -110,7 +110,6 @@ return (
                 <div className="w-full lg:w-96 space-y-6">
                     <Link href="#">
                     <img src="https://i.ibb.co/DkSX05p/logoname.png" alt="logo" className="w-40" />
-                    Plantas de Luz Mexico
                     </Link>
                     <p className="max-w-lg">
                     "Energía ininterrumpida para un mundo en movimiento."
