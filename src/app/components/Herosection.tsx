@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'    
 import Navbar from './Navbar'
+import { FaWhatsapp } from "react-icons/fa";
+
 
 export default function Herosection() {
     return (
@@ -13,7 +15,7 @@ export default function Herosection() {
                     <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row gap-8 lg:gap-10 xl:gap-12">
                         <div className="mx-auto text-center lg:text-left flex flex-col max-w-3xl justify-center lg:justify-start lg:py-8 flex-1 lg:w-1/2 lg:max-w-none">
                             <h1 className="text-indigo-950 dark:text-white text-4xl/snug sm:text-6xl/tight lg:text-5xl/tight xl:text-6xl/tight font-semibold text">
-                            Invierte en Energía Segura. <br /> Invierte en <span className="bg-yellow-50 dark:bg-gray-900 dark:text-indigo-300 inline-block border border-dashed border-slate-600 px-3">Plantas de Luz</span>
+                            Invierte en Energia. Compra tu <span className="bg-yellow-50 dark:bg-gray-900 dark:text-yellow-300 inline-block border border-dashed border-slate-600 px-3">Planta de Luz</span>
                             </h1>
                             <p className="mt-10 text-gray-700 dark:text-gray-300 lg:text-lg max-w-2xl lg:max-w-none mx-auto">
                             Ofrecemos soluciones integrales en plantas de luz para garantizar el suministro de energía en cualquier entorno, con tecnología de vanguardia y un servicio a la medida de tus necesidades.
@@ -24,9 +26,10 @@ export default function Herosection() {
                                         <b>Ver Inventario</b>
                                     </span>
                                 </Link>
-                                <Link href="#" className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-gray-100 dark:before:bg-gray-900 text-red-600 dark:text-white hover:before:scale-105">
-                                    <span className="relative">
-                                        Cotizar por Whatsapp
+                                <Link href="https://wa.me/528911230365" className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-gray-100 dark:before:bg-gray-900 text-red-600 dark:text-white hover:before:scale-105">
+                                    <span className="flex items-center justify-center gap-2 relative">
+                                    <FaWhatsapp />
+                                    Cotizar por Whatsapp
                                     </span>
                                 </Link>
                             </div>
