@@ -38,7 +38,7 @@ return (
           `}>
                     <ul className="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 dark:text-gray-300 lg:w-full lg:justify-center">
                         <li>
-                            <Link href="/generadores" className="relative py-2.5 duration-300 ease-linear hover:text-green -600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-green -600">Generadores</Link>
+                            <Link href="/plantasdeluz" className="relative py-2.5 duration-300 ease-linear hover:text-green -600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-green -600">Plantas de Luz</Link>
                         </li>
                         <li>
                             <Link href="/nosotros" className="relative py-2.5 duration-300 ease-linear hover:text-green -600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-green -600">Nosotros</Link>

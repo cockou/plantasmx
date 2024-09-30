@@ -12,11 +12,11 @@ return (
                 </div>
                 <div className="flex flex-col md:flex-1 space-y-8">
                     <p className="text-gray-700 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam hic odit ducimus pariatur deleniti voluptatibus delectus vero, alias debitis quae cumque eum
+                    Mantén tu operación siempre en marcha. Invierte en una planta de luz confiable. <br />Descubre nuestras plantas de luz de alto rendimiento.
                     </p>
                     <div className="flex justify-center md:justify-start">
                         <Link href="#" className="h-12 px-5 rounded-md flex items-center bg-red-600 text-white">
-                            Contactanos
+                            Contáctanos
                         </Link>
                     </div>
                 </div>

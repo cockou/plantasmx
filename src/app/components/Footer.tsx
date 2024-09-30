@@ -113,7 +113,7 @@ return (
                     Plantas de Luz Mexico
                     </Link>
                     <p className="max-w-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iusto est quia a
+                    "Energía ininterrumpida para un mundo en movimiento."
                     </p>
                 </div>
                 <nav className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-10">
@@ -129,7 +129,7 @@ return (
         </div>
         <div className="py-3 bg-gray-100 dark:bg-gray-900">
             <div className="max-w-3xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex justify-center text-center">
-                <p> © 2024 Redkit.co - All Rights Reserved </p>
+                <p> © 2024 Plantas de Luz México - All Rights Reserved </p>
             </div>
         </div>
     </footer>

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'    
 import Navbar from './Navbar'
 
+
 export default function Herosection() {
     return (
         <>
@@ -32,7 +33,7 @@ export default function Herosection() {
                             </div>
                         </div>
                         <div className="flex flex-1 lg:w-1/2 relative max-w-3xl mx-auto lg:max-w-none">
-                            <Image src="/images/heroImg.webp" alt="happy team" width={1850} height={1200} className="lg:absolute w-full lg:inset-x-0 object-cover lg:h-full" />
+                            <img src="https://i.ibb.co/VB99PMG/genset.jpg" alt="happy team" width={1650} height={1100} className="lg:absolute w-full lg:inset-x-0 object-cover lg:h-full" />
                             <div className="absolute left-1/2 -translate-x-1/2 lg:-translate-x-0 -bottom-10 w-60 p-4 rounded-lg bg-white dark:bg-gray-950 border dark:border-gray-800">
                                 <div className="flex children:ring-4 children:ring-white dark:children:ring-gray-950 children:w-9 children:h-9 children:object-cover children:-ml-1 children:rounded-full">
                                 </div>
