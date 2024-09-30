@@ -109,7 +109,7 @@ return (
             <div className="border-t border-t-gray-200 dark:border-t-gray-800 py-16 md:py-20 flex flex-col lg:flex-row gap-14 gap-y-16">
                 <div className="w-full lg:w-96 space-y-6">
                     <Link href="#">
-                    <img src="/public/logoname.svg" alt="logo" className="w-40" />
+                    <img src="https://i.ibb.co/DkSX05p/logoname.png" alt="logo" className="w-40" />
                     Plantas de Luz Mexico
                     </Link>
                     <p className="max-w-lg">
