@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Notificationbar from './Notificationbar'
 
 const Navbar = () => {
 const [navIsOpened, setNavIsOpened] = useState(false)
@@ -15,6 +16,7 @@ const toggleNavbar = () => {
 }
 return (
     <>
+        <Notificationbar />
         <div aria-hidden={true} onClick={() => {
             closeNavbar()
         }} className={
